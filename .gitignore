@@ -1,0 +1,18 @@
+# Operating-system and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local credentials and generated state
+.env
+.env.*
+!.env.example
+.opencode/
+.atl/
+
+# Temporary validation output
+*.log
+coverage/
+dist/
+build/

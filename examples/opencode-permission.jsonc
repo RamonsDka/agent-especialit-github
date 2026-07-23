@@ -1,0 +1,11 @@
+{
+  "agent": {
+    "gentle-orchestrator": {
+      "permission": {
+        "task": {
+          "agent-especialit-github": "allow"
+        }
+      }
+    }
+  }
+}

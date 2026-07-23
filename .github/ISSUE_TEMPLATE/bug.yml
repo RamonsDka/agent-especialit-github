@@ -1,0 +1,35 @@
+name: Bug report
+description: Report incorrect or unsafe package behavior.
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Provide reproducible, non-sensitive evidence. Do not include secrets.
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      description: Agent, skill, docs, permission example, or other path.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and reproduction
+      description: Include commands, safe output, versions, and evidence state.
+    validations:
+      required: true
