@@ -9,9 +9,8 @@ pre-merge decisions. It is invoked explicitly through OpenCode `Task`; it
 does not auto-activate and it does not replace native Gentle-AI review
 authority.
 
-> **Publication status:** This is a local repository package prepared for
-> publication. It is not claimed to be published until its owner creates and
-> publishes the remote repository.
+> **Project status:** Public, installable repository package maintained at
+> [RamonsDka/agent-especialit-github](https://github.com/RamonsDka/agent-especialit-github).
 
 ![Agent-especialit-GitHub overview](assets/images/agent-overview.jpeg)
 
